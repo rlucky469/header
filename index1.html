@@ -1,0 +1,55 @@
+                        <!DOCTYPE html>
+                        <html>
+                          <head>
+                            <style>
+                              /* Internal CSS */
+                              body {
+                                font-family: system-ui;
+                              }
+
+                           .colorGreen img, .colorYellow img, .colorRed img {
+                                filter: brightness(0);
+                              }
+
+                              .colorGreen img:hover{
+                                filter: hue-rotate(120deg); 
+                              }
+
+                              .colorYellow img:hover{
+                                filter: brightness(2.5); 
+                              }
+
+                              .colorRed img:hover{
+                                filter: hue-rotate(355deg); 
+                              }
+                              
+
+                            </style>
+
+                            <!-- external style sheet -->
+                        <!-- <link href="css/style.css" rel="stylesheet" /> -->
+                          </head>
+
+                          <body>
+
+                            <!-- Inline CSS -->
+                          <div style="margin-top: 45px; text-align: center;">
+                              
+                              <span class="colorGreen">
+                                <img src="./images/happy.png" width="100px" />
+                                <h3>Good</h3>
+                              </span>
+
+                              <span class="colorYellow">
+                                <img src="./images/ok.png" width="100px" />
+                                <h3>OK</h3>
+                              </span>
+
+                              <span class="colorRed">
+                                <img src="./images/bad.png" width="100px" />
+                                <h3>Not Good</h3>
+                              </span>
+
+                            </div>
+                          </body>
+                        </html>
