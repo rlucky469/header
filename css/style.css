@@ -244,10 +244,11 @@ header .navbar .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
   header .navbar-collapse  {
     position: absolute;
     background: var(--secondaryClr);
-    width: 98%;
+    width: 96%;
     top: 100%;
     z-index: 999;
     border-top: 1px solid gainsboro;
+    left: 2%;
   }
 
   header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link, 
