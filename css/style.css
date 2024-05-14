@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-  --primaryClr: #0d6efd;
+  --primaryClr: #975a00;
   --secondaryClr: #f8f9fa;
   --textClr: #212529;
   --white: #ffffff;
@@ -278,76 +278,4 @@ header .navbar .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
     display: block
   }
 }
-
-
-
-@media only screen and (max-width: 480px) {
-  .navbar-brand img {
-    width: 150px !important;
-  }
-  
-.login_section .login_Box {
-  width: 25em;
-}
-}
-
-a{
-  text-decoration: none;
-}
-
-.login_section{
-  height: 100vh;
-  background: url("../images/bg.jpg");
-  background-repeat:no-repeat;
- 
-  background-size: 100% 100%;
-}
-
-.login_section .login_Box {
-  background-color: #ffffff45;
-  width: 28em;
-  padding: 40px 30px;
-  
-}
-
-.login_Box #eye-icon {
-  top: 18px;
-  right: 18px;
-  font-size: 20px
-}
-
-.login_Box .small_text{
-  font-size: var(--smallFont);
-}
-
-.login_Box .form-control:focus{
-  outline: 0;
-  border: 1px solid var(--primaryClr);
-  box-shadow: none;
-}
-
-.login_Box .btn:focus{
-  outline: 0;
-
-  box-shadow: none;
-}
-
-
-.line {
-  height: 1px;
-  width: 31%;
-  background-color: #E0E0E0;
-  margin-top: 10px;
-}
-
-.or{
-  font-size: small;
-}
-
-
-
-
-
-
-
 
